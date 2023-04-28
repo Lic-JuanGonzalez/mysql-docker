@@ -3,3 +3,5 @@ services:
   dockerfile: dockerfile
   env:
     MYSQL_ROOT_PASSWORD: 12345
+    MYSQL_DATABASE: docker
+    MYSQL_PORT: 9000
